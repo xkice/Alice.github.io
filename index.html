@@ -4,22 +4,15 @@
 <meta charset="utf-8">
 <title>ICE</title>
 	
-<script language=vbscript>
-sub aa()
-dim thevalue
-randomize
-thevalue=int(rnd(1)*1000)+1
-document.f1.text1.value=thevalue
-end sub
+<script language=javascript>
+var number = Math.random();
+number = Math.ceil(number * 5);
+document.write(number);
 </script>
 </head>
 
 <body>
-<form name="f1">
-<input type=text id=text1 name="text1">
-<br><br>
-<input type=button value="生成随机数" onclick="aa">
-</form>
+
 </body>
 	
 </html>
