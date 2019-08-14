@@ -2,33 +2,24 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>基蜓是什么，是变态</title>
+<title>ICE</title>
 	
-	
-	<link href="//vjs.zencdn.net/4.9/video-js.css" rel="stylesheet">
-<script src="//vjs.zencdn.net/4.9/video.js"></script>
-<style type="text/css">
-.video-js .vjs-subtitles{
-  font-family: "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", helvetica, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #fc6;
-  font-size: 2em;
-  line-height: 1em;
-}
-	body {
-	margin-left: 100px;
-	margin-top: 20px;
-	margin-right: 100px;
-	text-align: center;
-}
-</style>
+<script language=vbscript>
+sub aa()
+dim thevalue
+randomize
+thevalue=int(rnd(1)*1000)+1
+document.f1.text1.value=thevalue
+end sub
+</script>
 </head>
 
 <body>
-	<dir>基蜓战姬</dir>
-	<dir>-Elis</dir>
-	<dir>从前有一只基蜓，然后他死了</dir>
-	<dir>基蜓原本是一个正直、阳光、快乐的少年</dir>
-	<dir>后来，他遇到了他人生转变的一个人</dir>	
+<form name="f1">
+<input type=text id=text1 name="text1">
+<br><br>
+<input type=button value="生成随机数" onclick="aa">
+</form>
 </body>
 	
 </html>
